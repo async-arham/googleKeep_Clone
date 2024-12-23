@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://ssl.gstatic.com/keep/keep_2023q4.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="keep.css">
+    <title>Google Keep • Clone</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1><img src="https://www.gstatic.com/images/branding/product/2x/keep_2020q4_48dp.png" alt="Keep Logo"> Keep
+        </h1>
+        <button id="add-btn"><img src="assets/add.svg"> Create</button>
+    </div>
+
+    <div id="watermark">
+        <img src="assets/watermark.svg" alt="Watermark" style="max-width: 100%; width: 200px; opacity: 0.1;">
+        <h2>Notes you add appear here</h2>
+    </div>
+    <div id="note-cont" class="note-cont"></div>
+
+    <script src="keep.js"></script>
+</body>
+
+</html>
